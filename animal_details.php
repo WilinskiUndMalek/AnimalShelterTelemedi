@@ -20,9 +20,6 @@ $api = new ApiClient(API_BASE_URL, $_SESSION['authToken']);
 // Pobierz dane zwierzaka
 $animal = $api->getAnimalDetails($animalId);
 
-// Dodaj debugowanie - zapisz odpowiedź do pliku
-file_put_contents('api_response_debug.log', print_r($animal, true));
-
 // Sprawdź strukturę odpowiedzi - może dane są zagnieżdżone w innym kluczu
 if (isset($animal['animal'])) {
     $animal = $animal['animal'];

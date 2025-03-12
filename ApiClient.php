@@ -63,8 +63,7 @@ class ApiClient {
         $error = curl_error($ch);
         $info = curl_getinfo($ch);
         
-        file_put_contents('curl_debug.log', "URL: $url\nResponse Code: $httpCode\nError: $error\nInfo: " . print_r($info, true) . "\nResponse: $response\n\n", FILE_APPEND);
-        
+ 
         curl_close($ch);
         
         if ($httpCode == 200) {
@@ -98,8 +97,7 @@ class ApiClient {
         $error = curl_error($ch);
         $info = curl_getinfo($ch);
         
-        file_put_contents('curl_add_animal_debug.log', "URL: $url\nData: $data\nResponse Code: $httpCode\nError: $error\nInfo: " . print_r($info, true) . "\nResponse: $response\n\n", FILE_APPEND);
-        
+
         curl_close($ch);
         
         if ($httpCode >= 200 && $httpCode < 300) {
@@ -138,8 +136,7 @@ class ApiClient {
         $error = curl_error($ch);
         $info = curl_getinfo($ch);
         
-        file_put_contents('curl_update_animal_debug.log', "URL: $url\nData: $data\nResponse Code: $httpCode\nError: $error\nInfo: " . print_r($info, true) . "\nResponse: $response\n\n", FILE_APPEND);
-        
+
         curl_close($ch);
         
         if ($httpCode >= 200 && $httpCode < 300) {
@@ -178,8 +175,7 @@ class ApiClient {
         $error = curl_error($ch);
         $info = curl_getinfo($ch);
         
-        file_put_contents('curl_delete_animal_debug.log', "URL: $url\nData: $data\nResponse Code: $httpCode\nError: $error\nInfo: " . print_r($info, true) . "\nResponse: $response\n\n", FILE_APPEND);
-        
+  
         curl_close($ch);
         
         if ($httpCode >= 200 && $httpCode < 300) {
@@ -211,8 +207,7 @@ class ApiClient {
         $error = curl_error($ch);
         $info = curl_getinfo($ch);
         
-        file_put_contents('curl_staff_debug.log', "URL: $url\nResponse Code: $httpCode\nError: $error\nInfo: " . print_r($info, true) . "\nResponse: $response\n\n", FILE_APPEND);
-        
+
         curl_close($ch);
         
         if ($httpCode == 200) {
@@ -240,8 +235,6 @@ class ApiClient {
         $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $error = curl_error($ch);
         $info = curl_getinfo($ch);
-        
-        file_put_contents('curl_volunteers_debug.log', "URL: $url\nResponse Code: $httpCode\nError: $error\nInfo: " . print_r($info, true) . "\nResponse: $response\n\n", FILE_APPEND);
         
         curl_close($ch);
         
