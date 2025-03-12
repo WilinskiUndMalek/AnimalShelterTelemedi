@@ -1,0 +1,51 @@
+URL: https://x8ki-letl-twmt.n7.xano.io/api:Aq4gqggC/animal
+Data: {"name":"Kotek 2","species":"Pies","breed":"Pitbull","age":"3","adoption_status":"Dost\u0119pny","arrival_date":"2025-03-04","description":"Spokojny, przytula\u015bny","medical_conditions":"Zdrowy","photo":"https:\/\/media.istockphoto.com\/id\/485288986\/pl\/wektor\/przyk%C5%82adowe-zdj%C4%99cie-kot-tajski.jpg?s=1024x1024&w=is&k=20&c=8Ac2RUKvw4TrrS1ps0jSneMIQxHpcj6T3fcp4vM_TeY=","video":"https:\/\/media1.tenor.com\/m\/9LRdFvyeEZAAAAAC\/cat-cat-wink.gif","weight":22,"vaccinations":"Wszystkie","special_needs":"Mi\u0142o\u015bc","behavioral_notes":"Kochany"}
+Response Code: 200
+Error: 
+Info: Array
+(
+    [url] => https://x8ki-letl-twmt.n7.xano.io/api:Aq4gqggC/animal
+    [content_type] => application/json; charset=UTF-8
+    [http_code] => 200
+    [header_size] => 824
+    [request_size] => 1116
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.64271
+    [namelookup_time] => 0.017477
+    [connect_time] => 0.189556
+    [pretransfer_time] => 0.364873
+    [size_upload] => 561
+    [size_download] => 583
+    [speed_download] => 907
+    [speed_upload] => 872
+    [download_content_length] => -1
+    [upload_content_length] => 561
+    [starttransfer_time] => 0.642496
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 35.193.186.65
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.0.180
+    [local_port] => 56335
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 364692
+    [connect_time_us] => 189556
+    [namelookup_time_us] => 17477
+    [pretransfer_time_us] => 364873
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 642496
+    [total_time_us] => 642710
+    [effective_method] => POST
+)
+
+Response: {"id":52,"created_at":1741738915348,"name":"Kotek 2","species":"Pies","breed":"Pitbull","age":"3","adoption_status":"Dostępny","arrival_date":"2025-03-04","description":"Spokojny, przytulaśny","medical_conditions":"Zdrowy","photo":"https://media.istockphoto.com/id/485288986/pl/wektor/przyk%C5%82adowe-zdj%C4%99cie-kot-tajski.jpg?s=1024x1024\u0026w=is\u0026k=20\u0026c=8Ac2RUKvw4TrrS1ps0jSneMIQxHpcj6T3fcp4vM_TeY=","video":"https://media1.tenor.com/m/9LRdFvyeEZAAAAAC/cat-cat-wink.gif","weight":22,"vaccinations":"Wszystkie","special_needs":"Miłośc","behavioral_notes":"Kochany"}
+

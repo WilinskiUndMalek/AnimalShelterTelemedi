@@ -1,0 +1,102 @@
+URL: https://x8ki-letl-twmt.n7.xano.io/api:Aq4gqggC/animal/51
+Data: {"animal_id":"51"}
+Response Code: 200
+Error: 
+Info: Array
+(
+    [url] => https://x8ki-letl-twmt.n7.xano.io/api:Aq4gqggC/animal/51
+    [content_type] => application/json; charset=UTF-8
+    [http_code] => 200
+    [header_size] => 824
+    [request_size] => 577
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.595062
+    [namelookup_time] => 0.014465
+    [connect_time] => 0.185173
+    [pretransfer_time] => 0.362205
+    [size_upload] => 18
+    [size_download] => 4
+    [speed_download] => 6
+    [speed_upload] => 30
+    [download_content_length] => -1
+    [upload_content_length] => 18
+    [starttransfer_time] => 0.594684
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 35.193.186.65
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.0.180
+    [local_port] => 57377
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 362019
+    [connect_time_us] => 185173
+    [namelookup_time_us] => 14465
+    [pretransfer_time_us] => 362205
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 594684
+    [total_time_us] => 595062
+    [effective_method] => DELETE
+)
+
+Response: null
+
+URL: https://x8ki-letl-twmt.n7.xano.io/api:Aq4gqggC/animal/52
+Data: {"animal_id":"52"}
+Response Code: 200
+Error: 
+Info: Array
+(
+    [url] => https://x8ki-letl-twmt.n7.xano.io/api:Aq4gqggC/animal/52
+    [content_type] => application/json; charset=UTF-8
+    [http_code] => 200
+    [header_size] => 824
+    [request_size] => 577
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.651347
+    [namelookup_time] => 0.014605
+    [connect_time] => 0.184742
+    [pretransfer_time] => 0.360999
+    [size_upload] => 18
+    [size_download] => 4
+    [speed_download] => 6
+    [speed_upload] => 27
+    [download_content_length] => -1
+    [upload_content_length] => 18
+    [starttransfer_time] => 0.651276
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 35.193.186.65
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.0.180
+    [local_port] => 59063
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 360909
+    [connect_time_us] => 184742
+    [namelookup_time_us] => 14605
+    [pretransfer_time_us] => 360999
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 651276
+    [total_time_us] => 651347
+    [effective_method] => DELETE
+)
+
+Response: null
+
